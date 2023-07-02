@@ -272,7 +272,7 @@ footer {
     }
 
     .project-1 {
-        background-image: url(/imagens-projetos/background-projeto1.jpg);
+        background-image: url(background-projeto1.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 400px;
@@ -297,7 +297,7 @@ footer {
     }
 
     .project-2 {
-        background-image: url(/imagens-projetos/background-projeto2.jpg);
+        background-image: url(background-projeto2.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 370px;
@@ -321,7 +321,7 @@ footer {
     }
 
     .project-3 {
-        background-image: url(/imagens-projetos/background-projeto3.jpg);
+        background-image: url(background-projeto3.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 400px;
@@ -362,7 +362,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .menu {
         display: flex;
         align-items: center;
