@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="LogoPage.jpg">
         <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
         <title>My Portfólio</title>
     </head>
     <body>   
@@ -13,7 +14,7 @@
             <div class="imagem-logo">
                 <img src="LogoPage.jpg" alt="Logo da pagina" width="100">
             </div>
-            
+
             <div class="menu">
                 <div class="link-about">
                     <a href="#about-me" target="_self">About-Me</a>
@@ -22,21 +23,20 @@
                 <div class="link-projects">
                     <a href="#projects" target="_self">Projects</a>
                 </div>
-                
             </div>
         </header>   
 
         <main>
             <section>
                 <div class="nome-central">
-                    <h1>THIAGO</h1>
-                    <p>FrontEnd</p>
+                    <h1 class="nome-h1" style="text-decoration: none;">THIAGO</h1>
+                    <p class="nome-p">FrontEnd</p>
                 </div>
 
                 <div class="container-redes-sociais">
-                    <a href="https://www.instagram.com/14thiagosantos10/" target="_blank"><img src="Logo-instagram.png" title="My Instagram" alt="Logo instagram" width="20" height="20"></a>
+                    <a href="https://www.instagram.com/14thiagosantos10" target="_blank"><img src="Logo-instagram.png" title="My Instagram" alt="Logo instagram" width="20" height="20"></a>
 
-                    <a href="https://www.linkedin.com/in/thiago-santos-frontend-707094240/" target="_blank"><img src="Logo-linkedin.png" title="My Linkedin" alt="Logo linkedin" width="20" height="20"></a>
+                    <a href="https://www.linkedin.com/in/thiago-santos-707094240" target="_blank"><img src="Logo-linkedin.png" title="My Linkedin" alt="Logo linkedin" width="20" height="20"></a>
 
                     <a href="https://github.com/ThiagoSantos14" target="_blank"><img src="Logo-github.png" title="My GitHub" alt="Logo github" width="20" height="20"></a>
                 </div>
@@ -49,7 +49,7 @@
                     </div>
                     
                     <div class="texto-about">
-                        <p>Oi me chamo thiago tenho 20 anos,<br> sou apaixonado por tecnologia,<br> esse foi um dos motivos por eu ter escolhido a area de ti,<br>O outro é que eu sou facisnado em desenvolver coisas do zero,<br>Estou aqui para mudar tudo que estiver no meu alcance,<br>e o que não tiver também,<br>não importa o tempo que vou demorar para me tornar um bom<br>Desenvolvedor web, mas eu vou conseguir.</p>
+                        <p>Oi me chamo thiago tenho 21 anos,<br> sou apaixonado por tecnologia,<br> esse foi um dos motivos por eu ter escolhido a área da TI,<br>O outro é que eu sou fascinado em desenvolver coisas do zero,<br>Estou aqui para mudar tudo que estiver no meu alcance,<br>e o que não tiver também,<br>não importa o tempo que vou demorar para me tornar um bom<br>Desenvolvedor web, mas eu vou conseguir.</p>
                     </div>
                 </div>
                 
@@ -59,15 +59,34 @@
                     </div>
                     
                     <div class="skills">
-                        <img src="logo-html5.jpg" alt="Logo do html5" width="80" height="60">
-                        
-                        <img src="logo-css3.webp" alt="Logo do css3" width="80" height="60">
-        
-                        <img src="Logo-logica-programacao.png" alt="Logo logica programação" width="80" height="60">
+                        <div class="div1">
+                            <img src="logo-html5.jpg" alt="Logo do html5" width="80" height="70" class="img01">
+                            <p class="text-html5">HTML5</p>
+    
+                            <img src="logo-css3.webp" alt="Logo do css3" width="80" height="70" class="img02">
+                            <p class="text-css3">CSS3</p>
+    
+                            <img src="logo-bootstrap.webp" alt="Logo do bootstrap" width="80" height="70" class="img03">
+                            <p class="text-bootstrap">BOOSTRAP</p>
+                            
+                            <img src="logo-figma.png" alt="Logo do bootstrap" width="80" height="70" class="img04">
+                            <p class="text-figma">FIGMA</p>
+                        </div>
 
-                        <img src="logo-javascript.webp" alt="Logo do JavaScript" width="80" height="60">
+                        <div class="div2">
+                            <img src="Logo-logica-programacao.png" alt="Logo logica programação" width="80" height="70" class="img05">
+                            <p class="text-logica">LOGICA PROGRAMAÇÃO</p>
+
+                            <img src="logo-javascript.webp" alt="Logo do JavaScript" width="80" height="70" class="img06">
+                            <p class="text-javascript">JAVASCRIPT</p>
+
+                            <img src="Logo-github.png" alt="Logo do github" width="80" height="70" class="img07">
+                            <p class="text-github">GITHUB</p>
+
+                            <img src="Logo-git.webp" alt="Logo do git" width="80" height="70" class="img08">
+                            <p class="text-git">GIT</p>
+                        </div>
                         
-                        <img src="Logo-git.webp" alt="Logo do git" width="80" height="60">
                     </div>
                 </div>
             </section>
@@ -79,42 +98,77 @@
 
                 <div class="projects">
                     <div class="project-1">
-                        <iframe src="https://thiagosantos14.github.io/Site-keyframe-darkmode-35/" frameborder="0" width="1460" height="800" scrolling="no"></iframe>
+                        <h1>Dashboard</h1>
 
-                        <div class="btn-1">
-                            <a href="https://github.com/ThiagoSantos14/Site-keyframe-darkmode-35" target="_blank">GitHub</a>
+                        <img src="foto-project-01.png" alt="foto-dashborder" class="foto-01">
 
-                            <a href="https://thiagosantos14.github.io/Site-keyframe-darkmode-35/" target="_blank">Preview</a>
+                        <div class="container-skills02">
+                            <img src="logo-html5.jpg" alt="Logo do html5" width="50" height="40">
+
+                            <img src="logo-css3.webp" alt="Logo do css3" width="50" height="40">
+
+                            <img src="logo-javascript.webp" alt="Logo do JavaScript" width="50" height="40">
                         </div>
                         
+                        <div class="btn-1">
+                            <a href="https://github.com/ThiagoSantos14/Dashboard-48" target="_blank">GitHub</a>
+
+                            <a href="https://thiagosantos14.github.io/Dashboard-48/" target="_blank">Deploy</a>
+                        </div>
                     </div>
 
                     <div class="project-2">
-                        <iframe src="https://thiagosantos14.github.io/Cards-feito-com-flexbox-diferentes-planos-para-assinar-34/" frameborder="0" width="1400" height="810" scrolling="no"></iframe>
+                        <h1>Site Oficina Mecânica</h1>
+
+                        <img src="foto-projeto-02.png" alt="foto-site-para-oficina" class="foto-02">
+
+                        <div class="container-skills02">
+                            <img src="logo-html5.jpg" alt="Logo do html5" width="50" height="30">
+
+                            <img src="logo-css3.webp" alt="Logo do css3" width="50" height="30">
+
+                            <img src="logo-javascript.webp" alt="Logo do JavaScript" width="50" height="30">
+                        </div>
 
                         <div class="btn-2">
-                            <a href="https://github.com/ThiagoSantos14/Cards-feito-com-flexbox-diferentes-planos-para-assinar-34" target="_blank">GitHub</a>
+                            <a href="https://github.com/ThiagoSantos14/Site-para-Ofina-mecanica-47" target="_blank">GitHub</a>
 
-                            <a href="https://thiagosantos14.github.io/Cards-feito-com-flexbox-diferentes-planos-para-assinar-34/" target="_blank">Preview</a>
+                            <a href="https://thiagosantos14.github.io/Site-para-Ofina-mecanica-47/" target="_blank">Deploy</a>
                         </div>
-                        
                     </div>
 
                     <div class="project-3">
-                        <iframe src="https://thiagosantos14.github.io/Page-mercedes-com-duas-tela-27/" frameborder="0" width="1400" height="750" scrolling="no"></iframe>
+                        <h1>To Do List</h1>
 
-                        <div class="btn-3">
-                            <a href="https://github.com/ThiagoSantos14/Page-mercedes-com-duas-tela-27" target="_blank" scrolling="no">GitHub</a> 
-                        
-                            <a href="https://thiagosantos14.github.io/Page-mercedes-com-duas-tela-27/" target="_blank">Preview</a>
+                        <img src="foto-projeto-03.png" alt="foto-to-do-list" class="foto-03">
+
+                        <div class="container-skills02">
+                            <img src="logo-html5.jpg" alt="Logo do html5" width="50" height="40">
+
+                            <img src="logo-css3.webp" alt="Logo do css3" width="50" height="40">
+
+                            <img src="logo-javascript.webp" alt="Logo do JavaScript" width="50" height="40">
+
+                            <img src="logo-bootstrap.webp" alt="Logo do bootstrap" width="50" height="40">
                         </div>
+                            
+                        <div class="btn-3">
+                            <a href="https://github.com/ThiagoSantos14/To-do-List-51" target="_blank" scrolling="no">GitHub</a> 
                         
+                            <a href="https://thiagosantos14.github.io/To-do-List-51/" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="VerMais">
+                    <div class="btnVerMais">
+                        <a href="projetos.html" target="_target" class="btnVerMais">Ver Mais</a>
                     </div>
                 </div>
             </section>
         </main>
 
-        <footer>
+        <footer class="footer">
             <div class="logo-rodape">
                 <img src="LogoPage.jpg" alt="Logo da página" width="100">
             </div>
@@ -130,4 +184,5 @@
             </div>
         </footer>
     </body>
+    <script src="script.js"></script>
 </html>
