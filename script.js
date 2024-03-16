@@ -38,7 +38,7 @@ const tituloPequeno = document.querySelector('.nome-p');
 window.sr = ScrollReveal({reset: true});
 
 sr.reveal('.nome-central', {
-    rotate: {x: 100, y: 100, z:0},
+    rotate: {x: 100, y: 100, z: 0},
     duration: 5000});
 
 sr.reveal('.about', {duration: 2000});
