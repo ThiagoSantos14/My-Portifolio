@@ -155,10 +155,13 @@ h1 {
     justify-content: center;
     border-radius: 10px;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .text-html5, .text-css3, .text-bootstrap, .text-figma, .text-logica, .text-javascript, .text-github, .text-git {
     opacity: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .style-text {
@@ -225,11 +228,11 @@ h1 {
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 .btn-1 a {
-    padding-top: 50px;
+    padding-top: 5vh;
 }
 
 .project-2 {
@@ -237,6 +240,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
