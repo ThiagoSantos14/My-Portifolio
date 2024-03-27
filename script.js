@@ -80,6 +80,12 @@ const textGithub = document.querySelector('.text-github');
 const img08 = document.querySelector('.img08');
 const textGit = document.querySelector('.text-git');
 
+const img09 = document.querySelector('.img09');
+const textSql = document.querySelector('.text-sql');
+
+const img10 = document.querySelector('.img10');
+const textSqlServer = document.querySelector('.text-sql-server');
+
 img01.addEventListener('mouseover', function(event) {
     event.preventDefault();
     textHtml5.style.opacity = 1;
@@ -168,5 +174,26 @@ img08.addEventListener('mouseout', function(event) {
     textGit.style.opacity = 0;
 });
 
+img09.addEventListener('mouseover', function(event) {
+    event.preventDefault();
+    textSql.style.opacity = 1;
+    textSql.classList = 'style-text';
+});
+
+img09.addEventListener('mouseout', function(event) {
+    event.preventDefault();
+    textSql.style.opacity = 0;
+});
+
+img10.addEventListener('mouseover', function(event) {
+    event.preventDefault();
+    textSqlServer.style.opacity = 1;
+    textSqlServer.classList = 'style-text';
+});
+
+img10.addEventListener('mouseout', function(event) {
+    event.preventDefault();
+    textSqlServer.style.opacity = 0;
+});
 
 
