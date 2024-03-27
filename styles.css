@@ -84,11 +84,11 @@ h1 {
     font-size: 20px;
     color: white;
 }
-.container-redes-sociais {
+.container-redes-sociais a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 1vh;
+    height: 5vh;
     margin-left: 2%;
 }
 
