@@ -352,6 +352,7 @@ h1 {
     .imagem-logo img {
         width: 90px;
         mix-blend-mode: lighten;
+        background: black;
     }
 
     .menu {
