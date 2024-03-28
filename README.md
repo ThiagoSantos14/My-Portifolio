@@ -1,1 +1,1 @@
-Meu portifolio feito em html5 e css3, com alguns projetos pessoais.
+Meu portifolio feito em html5, css3, javascript e alguns projetos pessoais.
