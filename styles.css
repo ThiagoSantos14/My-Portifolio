@@ -1,0 +1,632 @@
+@font-face {
+    src: url(PressStart2P-Regular.ttf);
+    font-family: "press"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "press";
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(rgb(121, 120, 120), #343438);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+
+.imagem-logo img {
+    mix-blend-mode: lighten;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 50vh;
+    height: 15vh;
+    justify-content: space-around;
+    gap: 30px;
+    white-space: nowrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-about:hover a {
+    color: red;
+    transition: all 0.9s;
+    text-decoration: line-through;
+}
+
+.link-projects:hover a {
+    color: red;
+    transition: all 0.9s;
+    text-decoration: line-through;
+}
+
+.nome-central {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.nome-central h1 {
+    font-size: 100px;
+    color: white;
+}
+
+.nome-central p {
+    font-size: 20px;
+    color: white;
+}
+.container-redes-sociais a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 4vh;
+    margin-left: 2%;
+}
+
+.container-redes-sociais img:hover {
+    transform: scale(1.2);
+    transition: all 0.9s;
+}
+
+.container-redes-sociais img {
+    mix-blend-mode: luminosity;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    line-height: 4vh;
+}
+
+.titulo-about {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.texto-about{
+    display: flex;
+    justify-content: center;
+}
+
+.container-skills {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.titulo-skills {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.skills, img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-html5, .text-css3, .text-bootstrap, .text-figma, .text-logica, .text-javascript, .text-github, .text-git, .text-sql, .text-sql-server {
+    opacity: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.style-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 16vh;
+    height: 5vh;
+    border-radius: 10px;
+    border: groove 1px white;
+    background: black;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.titulo-projects, h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.projects a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+}
+
+.projects a:hover { 
+    color: red;
+    transition: all 0.9s;
+    transform: scale(1.3);
+    text-decoration: line-through;
+}
+
+.container-skills02 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.project-1 .foto-01 {
+    width: 90%;
+    height: 100vh;
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 15%;
+}
+
+.btn-1 a {
+    padding-top: 5vh;
+}
+
+.project-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.project-2 .foto-02 {
+    max-width: 90%;
+    height: 100vh;
+}
+
+.btn-2 a {
+    padding-top: 50px;
+}
+
+.project-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.project-3 .foto-03 {
+    max-width: 90%;
+    height: 100vh;
+}
+
+.btn-3 a {
+    padding-top: 50px;
+}
+
+.VerMais {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 10vh;
+}
+
+.btnVerMais a {
+    width: 100%;
+    height: 7vh;
+    color: white;
+    padding: 10px;
+}
+
+.btnVerMais:hover {
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+    transition: all 0.9s;
+    background: gray;
+    text-decoration: none;
+    border-radius: 10px;
+    border: groove 5px black;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background: #1A1B1F;
+    height: 20vh;
+    margin-top: 20%;
+}
+
+.logo-rodape {
+    display: flex;
+    align-items: center;
+    mix-blend-mode: lighten;
+    height: 20vh;
+}
+
+.info-rodape a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 170vh;
+    height: 5vh;
+}
+
+.info-rodape a:hover {
+    color: red;
+    text-decoration: line-through;
+    transition: all 0.9s;
+}
+
+.direitos-da-pagina-rodape p{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 10vh;
+    height: 13vh;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    html body {
+        background: radial-gradient(rgb(121, 120, 120), #343438);
+    }
+
+    body::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .imagem-logo img {
+        width: 90px;
+        background: black;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        align-items: flex-end;
+        padding: 20px;
+    }
+
+    .nome-central h1 {
+        font-size: 45px;
+    }
+
+    .container-redes-sociais {
+        margin-top: -10%;
+    }
+
+    .container-redes-sociais img {
+        width: 30px;
+        height: 30px;
+        margin-top: -1%;
+        padding-bottom: 1%;
+    }
+
+    .about {
+        margin-top: 30vh;
+        margin-bottom: 70%;
+    } 
+
+    .texto-about p {
+        padding-left: 5%;
+    }
+
+    .container-skills {
+        margin-bottom: 50%;
+    }
+
+    .skills img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .div1 {
+        width: 30%;
+    }
+
+    .div2 {
+        width: 30%;
+    }
+
+    .div3 {
+        width: 30%;
+    }
+
+    .titulo-projects h1 {
+        padding-bottom: 40%;
+        margin-top: 10%;
+        z-index: 1;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 250vh;
+    }
+
+    h1 {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .project-1 {
+        width: 100%;
+        height: 50vh;
+        margin-top: -270%;
+    }
+
+    .project-1 a {
+        margin-top: 50%;
+        z-index: 3;
+    }
+
+    .btn-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .project-2 iframe {
+        display: none;
+    }
+
+    .project-2 {
+        width: 100%;
+        height: 50vh;
+        margin-top: 50%;
+    }
+
+    .project-2 a {
+        margin-top: 50%;
+    }
+
+    .btn-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .project-3 iframe {
+        display: none;
+    }
+
+    .project-3 {
+        width: 100%;
+        height: 50vh;
+        margin-top: 50%;
+        margin-bottom: -150%;
+    }
+
+    .project-3 a {
+        margin-top: 50%;
+    }
+
+    .btn-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .VerMais {
+        margin-top: -10vh;
+    }
+
+    .logo-rodape img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .info-rodape a {
+        display: flex;
+        justify-content: center;
+        width: 50vh;
+        font-size: 15px;
+    }
+    
+    .direitos-da-pagina-rodape p {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        height: 11vh;
+    }
+
+    .container-redes-sociais img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .texto-about p {
+        padding-left: 3%;
+    }
+
+    .project-1 iframe {
+        width: 760px;
+        height: 900px;
+    }
+
+    .project-2 iframe {
+        margin-top: 20%;
+        width: 760px;
+        height: 800px;
+    }
+
+    .project-3 iframe {
+        margin-top: 20%;
+        width: 760px;
+        height: 800px;
+    }
+
+    .info-rodape a {
+        display: flex;
+        justify-content: center;
+        width: 60vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        height: 9vh;
+    }
+
+    .container-redes-sociais img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .texto-about p {
+        padding-left: 3%;
+    }
+
+    .project-1 iframe {
+        width: 800px;
+        height: 900px;
+    }
+
+    .project-2 iframe {
+        margin-top: 20%;
+        width: 800px;
+        height: 800px;
+    }
+
+    .project-3 iframe {
+        margin-top: 20%;
+        width: 800px;
+        height: 800px;
+    }
+
+    .info-rodape a {
+        display: flex;
+        justify-content: center;
+        width: 53vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container-redes-sociais {
+        padding-bottom: 10%;
+    }
+
+    .container-redes-sociais img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .texto-about p {
+        padding-left: 3%;
+    }
+
+    .project-1 iframe {
+        width: 1100px;
+        height: 900px;
+    }
+
+    .project-2 iframe {
+        margin-top: 20%;
+        width: 1100px;
+        height: 800px;
+    }
+
+    .project-3 iframe {
+        margin-top: 20%;
+        width: 1100px;
+        height: 800px;
+    }
+
+    .info-rodape a {
+        display: flex;
+        justify-content: center;
+        width: 137vh;
+    }
+}
+
+.nome-central, .about, .container-skills, .project-1, .project-2, .project-3, .footer {
+    visibility: hidden;
+}
