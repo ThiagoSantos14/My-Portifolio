@@ -81,10 +81,16 @@ const img08 = document.querySelector('.img08');
 const textGit = document.querySelector('.text-git');
 
 const img09 = document.querySelector('.img09');
-const textSql = document.querySelector('.text-sql');
+const textPhotoshop = document.querySelector('.text-photoshop');
 
 const img10 = document.querySelector('.img10');
 const textSqlServer = document.querySelector('.text-sql-server');
+
+const img11 = document.querySelector('.img11');
+const textPowerBI = document.querySelector('.text-power-bi');
+
+const img12 = document.querySelector('.img12');
+const textSql = document.querySelector('.text-sql');
 
 img01.addEventListener('mouseover', function(event) {
     event.preventDefault();
@@ -176,13 +182,13 @@ img08.addEventListener('mouseout', function(event) {
 
 img09.addEventListener('mouseover', function(event) {
     event.preventDefault();
-    textSql.style.opacity = 1;
-    textSql.classList = 'style-text';
+    textPhotoshop.style.opacity = 1;
+    textPhotoshop.classList = 'style-text';
 });
 
 img09.addEventListener('mouseout', function(event) {
     event.preventDefault();
-    textSql.style.opacity = 0;
+    textPhotoshop.style.opacity = 0;
 });
 
 img10.addEventListener('mouseover', function(event) {
@@ -194,6 +200,28 @@ img10.addEventListener('mouseover', function(event) {
 img10.addEventListener('mouseout', function(event) {
     event.preventDefault();
     textSqlServer.style.opacity = 0;
+});
+
+img11.addEventListener('mouseover', function(event) {
+    event.preventDefault();
+    textPowerBI.style.opacity = 1;
+    textPowerBI.classList = 'style-text';
+});
+
+img11.addEventListener('mouseout', function(event) {
+    event.preventDefault();
+    textPowerBI.style.opacity = 0;
+});
+
+img12.addEventListener('mouseover', function(event) {
+    event.preventDefault();
+    textSql.style.opacity = 1;
+    textSql.classList = 'style-text';
+});
+
+img12.addEventListener('mouseout', function(event) {
+    event.preventDefault();
+    textSql.style.opacity = 0;
 });
 
 
