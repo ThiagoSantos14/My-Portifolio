@@ -164,7 +164,7 @@ h1 {
     align-items: center;
 }
 
-.text-html5, .text-css3, .text-bootstrap, .text-figma, .text-logica, .text-javascript, .text-github, .text-git, .text-sql, .text-sql-server {
+.text-html5, .text-css3, .text-bootstrap, .text-figma, .text-logica, .text-javascript, .text-github, .text-git, .text-photoshop, .text-sql, .text-sql-server, .text-power-bi {
     opacity: 0;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -347,6 +347,10 @@ h1 {
         background: radial-gradient(rgb(121, 120, 120), #343438);
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     body::-webkit-scrollbar {
         width: 0px;
     }
@@ -375,7 +379,7 @@ h1 {
     .container-redes-sociais img {
         width: 30px;
         height: 30px;
-        margin-top: -1%;
+        margin-top: -30%;
         padding-bottom: 1%;
     }
 
@@ -393,7 +397,7 @@ h1 {
     }
 
     .skills img {
-        width: 45px;
+        width: 50px;
         height: 45px;
     }
 
@@ -500,7 +504,7 @@ h1 {
     .info-rodape a {
         display: flex;
         justify-content: center;
-        width: 50vh;
+        width: 60vh;
         font-size: 15px;
     }
     
@@ -510,10 +514,18 @@ h1 {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
     .menu {
         display: flex;
         align-items: center;
         height: 11vh;
+    }
+
+    .container-redes-sociais a {
+        margin-top: 1vh;
     }
 
     .container-redes-sociais img {
@@ -590,8 +602,16 @@ h1 {
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+    html {
+        overflow-x: hidden;
+    }
+
     .container-redes-sociais {
-        padding-bottom: 10%;
+        margin-top: -4%;
+    }
+
+    .container-redes-sociais a {
+        margin-bottom: 2vh;
     }
 
     .container-redes-sociais img {
@@ -623,7 +643,7 @@ h1 {
     .info-rodape a {
         display: flex;
         justify-content: center;
-        width: 137vh;
+        width: 180vh;
     }
 }
 
